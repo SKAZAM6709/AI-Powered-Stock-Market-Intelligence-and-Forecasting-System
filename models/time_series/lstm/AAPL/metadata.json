@@ -1,0 +1,12 @@
+{
+    "ticker": "AAPL",
+    "sequence_length": 60,
+    "training_rows": 1007,
+    "testing_rows": 252,
+    "mae": 3.69201397895813,
+    "rmse": 4.677358821693606,
+    "r2": 0.8550571203231812,
+    "directional_accuracy": 48.41269841269841,
+    "model_type": "LSTM",
+    "target": "next_day_close"
+}

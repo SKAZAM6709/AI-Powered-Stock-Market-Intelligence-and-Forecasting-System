@@ -1,0 +1,115 @@
+{
+    "total_records": 4846,
+    "labels": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "vader": {
+        "accuracy": 0.5429219975237309,
+        "classification_report": {
+            "negative": {
+                "precision": 0.4044943820224719,
+                "recall": 0.2980132450331126,
+                "f1-score": 0.34318398474737843,
+                "support": 604.0
+            },
+            "neutral": {
+                "precision": 0.7423864203694458,
+                "recall": 0.5164987843001042,
+                "f1-score": 0.6091765669807456,
+                "support": 2879.0
+            },
+            "positive": {
+                "precision": 0.40200166805671395,
+                "recall": 0.7072633895818048,
+                "f1-score": 0.5126296197819729,
+                "support": 1363.0
+            },
+            "accuracy": 0.5429219975237309,
+            "macro avg": {
+                "precision": 0.5162941568162106,
+                "recall": 0.5072584729716739,
+                "f1-score": 0.48833005717003236,
+                "support": 4846.0
+            },
+            "weighted avg": {
+                "precision": 0.6045343344091021,
+                "recall": 0.5429219975237309,
+                "f1-score": 0.5488684760395816,
+                "support": 4846.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                180,
+                185,
+                239
+            ],
+            [
+                197,
+                1487,
+                1195
+            ],
+            [
+                68,
+                331,
+                964
+            ]
+        ]
+    },
+    "finbert": {
+        "accuracy": 0.8893933140734627,
+        "classification_report": {
+            "negative": {
+                "precision": 0.801641586867305,
+                "recall": 0.9701986754966887,
+                "f1-score": 0.8779026217228464,
+                "support": 604.0
+            },
+            "neutral": {
+                "precision": 0.9621979734996103,
+                "recall": 0.8575894407780479,
+                "f1-score": 0.9068870523415978,
+                "support": 2879.0
+            },
+            "positive": {
+                "precision": 0.8102001291155584,
+                "recall": 0.9207630227439472,
+                "f1-score": 0.8619505494505495,
+                "support": 1363.0
+            },
+            "accuracy": 0.8893933140734627,
+            "macro avg": {
+                "precision": 0.8580132298274913,
+                "recall": 0.9161837130062279,
+                "f1-score": 0.8822467411716645,
+                "support": 4846.0
+            },
+            "weighted avg": {
+                "precision": 0.8994350516214892,
+                "recall": 0.8893933140734627,
+                "f1-score": 0.8906354944517454,
+                "support": 4846.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                586,
+                11,
+                7
+            ],
+            [
+                123,
+                2469,
+                287
+            ],
+            [
+                22,
+                86,
+                1255
+            ]
+        ]
+    },
+    "vader_finbert_agreement": 0.5557160544779199
+}

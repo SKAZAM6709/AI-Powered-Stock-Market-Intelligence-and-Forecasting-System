@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# ==============================
+# Environment variables
+# ==============================
+
+.env
+backend/.env
+
+# ==============================
+# Node / React
+# ==============================
+
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# ==============================
+# IDE / OS
+# ==============================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Large datasets
+# ==============================
+
+data/raw/*.csv
+data/processed/*.csv
+
+# Keep JSON metrics if needed
+!data/processed/*.json
+
+# ==============================
+# Machine Learning Models
+# ==============================
+
+models/**/*.keras
+models/**/*.h5
+models/**/*.joblib
+models/**/*.pkl
+
+# ==============================
+# TensorFlow / PyTorch
+# ==============================
+
+*.ckpt
+*.pt
+*.pth
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Databases
+# ==============================
+
+*.db
+*.sqlite
+*.sqlite3

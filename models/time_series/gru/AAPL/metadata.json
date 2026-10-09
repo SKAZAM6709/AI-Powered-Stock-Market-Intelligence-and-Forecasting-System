@@ -1,0 +1,12 @@
+{
+    "ticker": "AAPL",
+    "sequence_length": 60,
+    "training_rows": 1007,
+    "testing_rows": 252,
+    "mae": 4.420845985412598,
+    "rmse": 5.033946008003962,
+    "r2": 0.8321146965026855,
+    "directional_accuracy": 48.01587301587302,
+    "model_type": "GRU",
+    "target": "next_day_close"
+}
